@@ -73,9 +73,9 @@ app.delete("/posts/:id", (req, res) => {
   res.redirect("/posts");
 });
 
-app.listen(port, () => {
-  console.log("listening to port:8080");
-});
+// app.listen(port, () => {
+//   console.log("listening to port:8080");
+// });
 
 // index.js
 const PORT = process.env.PORT || 3000;
